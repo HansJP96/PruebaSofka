@@ -1,0 +1,106 @@
+def lista_categorias():
+    """
+    Funcion que retorna un diccionario con la informacion acerca de las categorias, preguntas, opciones y respuestas.
+    Informacion utilizada por la clase Categorias y Preguntas.
+
+    :return: Diccionario con datos de las categorias
+    """
+    return {"Nan": [],
+            "Historia":
+                [{"Pregunta": "Una consecuencia del florero de Llorente fue: ",
+                  "Opciones": ["a) La batalla de Boyacá", "b) El grito de independecia", "c) El Bogotazo",
+                               "d) La creación de grupos paramilitares"],
+                  "Respuesta": "b"},
+                 {"Pregunta": "El Bogotazo fue desencadenado por: ",
+                  "Opciones": ["a) La muerte de Critobal Colón", "b) La muerte de Pedro de Heredia",
+                               "c) La muerte de Jorge Eliezer Gaitán", "d) La muerte de Rafael Escalona"],
+                  "Respuesta": "c"},
+                 {"Pregunta": "Cuando ocurrió la batalla de Boyacá",
+                  "Opciones": ["a) 7 de agosto de 1819", "b) 20 de julio de 1819", "c) 7 de agosto de 1492",
+                               "d) 20 de julio de 1492"],
+                  "Respuesta": "a"},
+                 {"Pregunta": "Cuáles fueron los dos partidos políticos que surgieron en el siglo XX en Colombia",
+                  "Opciones": ["a) Centro democrático y liberal", "b) Partido de la U",
+                               "c) Bolivariano y Santanderiano", "d) Liberal hy conservador"], "Respuesta": "d"},
+                 {"Pregunta": "¿Qué inició la segunda Guerra mundial?",
+                  "Opciones": ["a) Hitler invadió Rusia", "b) La conquista de América", "c) Alemania invadió Polonia",
+                               "d) La revolución industrial"],
+                  "Respuesta": "c"}],
+            "Geografia":
+                [{"Pregunta": "Cuál es el continente más poblado del mundo ",
+                  "Opciones": ["a) África", "b) Europa", "c) Asia", "d) América"],
+                  "Respuesta": "c"},
+                 {"Pregunta": "Cuál es el país más grande de Sudamérica ",
+                  "Opciones": ["a) Brasil", "b) Argentina", "c) Venezuela", "d) Chile"],
+                  "Respuesta": "a"},
+                 {"Pregunta": "En que frontera se encuentra el monte Everest ",
+                  "Opciones": ["a) China y Nepal", "b) China y Rusia", "c) China e India", "d) Nepal e India"],
+                  "Respuesta": "a"},
+                 {"Pregunta": "Qué forma tiene la península itálica ",
+                  "Opciones": ["a) Triángular", "b) cilíndrica", "c) De cono", "d) De bota"],
+                  "Respuesta": "d"},
+                 {"Pregunta": "En qué país se habla neerlandés ",
+                  "Opciones": ["a) Suiza", "b) Paises bajos", "c) Finlandia", "d) Rumania"],
+                  "Respuesta": "b"}],
+            "Matematicas":
+                [{
+                    "Pregunta": "Si los dos catetos de un triángulo rectángulo miden 3 cm y 4 cm respectivamente, "
+                                "cuanto mide la hipotenusa",
+                    "Opciones": ["a) 4 cm", "b) 5 cm", "c) 4.5 cm", "d) 6 cm"],
+                    "Respuesta": "b"},
+                    {
+                        "Pregunta": "Si se lanza un dado 4 veces, la probabilidad de obtener un 6 en todos los "
+                                    "lanzamientos es de: ",
+                        "Opciones": ["a) 4/24", "b) 1/24", "c) 1/1296", "d) 4/6"],
+                        "Respuesta": "c"},
+                    {"Pregunta": "Se tiene la función y=x²+4x+4. La parábola que representa dicha función ",
+                     "Opciones": ["a) Es cóncava hacia arriba", "b) Es cóncava hacia abajo", "c) Es lineal creciente",
+                                  "d) Es lineal decreciente"],
+                     "Respuesta": "a"},
+                    {"Pregunta": "La expresión (-4)²², tiene como resultado un número: ",
+                     "Opciones": ["a) Positivo porque el exponente es par", "b) Positivo porque la base es par",
+                                  "c) Negativo porque el exponente es par", "d) Negativo porque la base es impar"],
+                     "Respuesta": "a"},
+                    {"Pregunta": "Si se sabe que la función tangente=seno/conseno, entonces la tangente de 90°",
+                     "Opciones": ["a) Existe y es un número positivo", "b) Existe y es un número negativo",
+                                  "c) Es igual a 0", "d) No existe"],
+                     "Respuesta": "d"}],
+            "Literatura":
+                [{"Pregunta": "Cual de los siguientes no fue un escritor de cuentos terror ",
+                  "Opciones": ["a) Edgar Allan Poe", "b) Howard Lovecraft", "c) Bram Stoker", "d) Arthur Conan Doyle"],
+                  "Respuesta": "d"},
+                 {"Pregunta": "Que escritor se conoce como el manco de Lepanto  ",
+                  "Opciones": ["a) Miguel de Cervantes Savedra", "b) Agatha Christie", "c) Oscar Wilde",
+                               "d) William Shakespeare"],
+                  "Respuesta": "a"},
+                 {"Pregunta": "Quien acompaña a Dante en su viaje al infierno y al purgatorio en la divina comedia ",
+                  "Opciones": ["a) Homero", "b) Virgilio", "c) Poirot", "d) Platón"],
+                  "Respuesta": "b"},
+                 {"Pregunta": "Cual de las siguientes obras no fue escrita por Gabriel García Márquez ",
+                  "Opciones": ["a) El coronal no tiene quien le escriba", "b) El amor en los tiempos del cólera",
+                               "c) Siervo sin tierra", "d) La Hojarasca"],
+                  "Respuesta": "c"},
+                 {
+                     "Pregunta": "Al vocablo o la expresión que tiene una misma o muy parecida significación que otra "
+                                 "se lo denomina: ",
+                     "Opciones": ["a) Rima", "b) Sinónimo", "c) Analogia", "d) Hiperbole"],
+                     "Respuesta": "b"}],
+            "Quimica":
+                [{"Pregunta": "Cuál es el elemento menos electropositivo ",
+                  "Opciones": ["a) Fluor", "b) Hidrógeno", "c) Cesio", "d) Helio"],
+                  "Respuesta": "a"},
+                 {"Pregunta": "La oxidación de un alcohol secundario produce ",
+                  "Opciones": ["a) Un ácido carboxílico", "b) Una cetona", "c) Un aldehído",
+                               "d) Un alcohol primario o terciario"],
+                  "Respuesta": "b"},
+                 {"Pregunta": "La destilación es un método de separación de mezclas que aprovecha la diferencia de : ",
+                  "Opciones": ["a) Puntos de ebullición", "b) Densidades", "c) Presión", "d) Conductividad eléctrica"],
+                  "Respuesta": "a"},
+                 {"Pregunta": "Cuál de los siguientes es un modelo usado para gases reales : ",
+                  "Opciones": ["a) Newton-Raphson", "b) Ecuaciones de Maxwell", "c) Modelo Peng-Robinson",
+                               "d) Programación lineal"],
+                  "Respuesta": "c"},
+                 {"Pregunta": "Un gas se comprime manteniendo su tempratura constante, el proceso llevado a cabo es: ",
+                  "Opciones": ["a) Isobárico", "b) Isotérmico", "c) Adiabático", "d) Isovolumétrico"],
+                  "Respuesta": "b"}]
+            }
